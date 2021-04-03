@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FRISPES</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+
+   <!--  <link rel="stylesheet" href="css/style.css"> -->
+    <style type="text/css">
+      /* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+ 
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+  right: 0%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 70% !important;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+.icon-list {
+  padding-left: 0;
+  list-style: none;
+}
+.icon-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: .25rem;
+}
+.icon-list li::before {
+  display: block;
+  flex-shrink: 0;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: .5rem;
+  content: "";
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212529' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E%3C/svg%3E") no-repeat center center / 100% auto;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+/*.hea{
+    content: "";
+    background: #fff;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+}*/
+/*.hr{
+  margin-left: 30px;
+}*/
+.intro-line {
+    /*margin: 0 auto;*/
+    background-color: #d92400;
+    border: transparent;
+      width: 40px;
+    height: 7px;
+    position: absolute;
+    left: 15%;
+    margin-bottom: 50%;
+}
+   .unit{
+    padding: 30px;
+    background: white;
+    text-align: center;
+    padding-top: 50px;
+}
+    </style>
+  </head>
+  <body>
+  
+  <div class="site-loader"></div>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+<div class="container">
+  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+    <!-- <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a> -->
+
+              <h1 class="mb-0"><a href="" class="text-white h2 mb-0"><strong style="color: black;">Frispes<span class="text-danger">.</span></strong></a></h1>
+            
+    <ul class="nav col-12 col-md-auto mb-2 mb-md-0">
+      <li><a href="#" class="nav-link px-2 link-dark">Home</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark">Workspace</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark">Service</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark">Events</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark">Reviews</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark">Contact Us</a></li>
+    </ul>
+ 
+    <div class="col-md-3 text-end">
+      <button type="button" class="btn">Login</button>
+      <button type="button" class="btn btn-primary" style="background-color: #f15105; border: #f15105">Sign-up</button>
+    </div>
+  </header>
+</div>
+   
+</br>
+
+          <div class="row g-5" style="padding-left: 7rem;">
+    <div class="col-md-6" >
+      <h4>Introducting</h4>
+      <!-- <hr class="intro-line"> -->
+     
+      <h2 style="color: red;">Revolutionary <span style="color: #284875;">co-working </span></h2>
+                <h2 style="color: #284875;">space to realize your</h2> <h2 style=" color: #284875;"> innovation</h2>
+    </div>
+
+    <div class="col-md-6">
+      
+      <p>With a decade of insight and expertise,we're decided </br>decided to reimagine co-working space,designed to help to</br> help a new startup grow up and realize their ideas so ideas</br>  so they can give a positive impacts on many peaople</p>
+     
+    </div>
+  </div>
+
+</br>
+<div class="row g-5">
+    <div class="col-md-6" style="padding-left: 25rem;">
+    <form style="background-color: #284875; width: 100%; height: 70%;padding-right: 5%">
+      <h2 class="text-white" style="text-align: center">Find your space now</h2>
+      <div style="padding-left: 10%;margin-top: 40px;">
+     <label  class="shadow mb-4" style="background: #041b3c;  color: white;width: 100%;">Location</br>Malang,Indonesia</label>
+      <label  class="shadow mb-4" style="background: #041b3c;  color: white;width:100%;">Type</br>Private Office</label>
+       <label  class="shadow mb-4" style="background: #041b3c;  color: white;width: 100%;">Date</br>9 Aug 2020</label>
+       <button type="button" class="btn btn-primary" style="background-color: #f15105; border: #f15105;width: 100%;">FIND MY SPACE</button>
+    
+     </div>
+    </form>
+    </div>
+
+    <div class="col-md-6">
+      
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="70%" height="100%" xmlns="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="image_1.png" width="100%" height="100%" fill="#777"></svg>
+
+       
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="70%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="img_3.jpg" width="100%" height="100%" fill="#777"></svg>
+
+       
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="70%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="img_5.jpg" width="100%" height="100%" fill="#777"></svg>
+
+        
+      </div>
+    </div>
+   
+  </div>
+    </div>
+  </div>
+
+
+<div class="site-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          
+        </div>
+        <div class="row">
+          <h2 style="color: #284875;">Our Spaces</h2></br>
+          </br></br>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <a href="#"><img src="image_2.png" alt="Image" class="img-fluid  mb-4"></a>    
+           <h3 style="color: #284875;">Working with team</h3>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
+            
+            <div class="shadow p-4" style="background: #284875; height: 100%;">
+             
+            <center style=" padding-top: 50%;">  <h1 class="h2 text-white mb-3">Private Space</h1>
+              <p class="text-white text-align-center">Comfotable space,Full speed</br>wifi, Free coffe& Snack</br> and many more</p></center>
+              <h5 style="color: white;background:#f15105; padding: 10px ">Check availibity ></h5>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
+            <a href="#"><img src="image_3.png" alt="Image" class="img-fluid"></a>
+            <div class="p-4 bg-white">
+           
+              <h2 class="h5 mb-3" style="color: #284875;">Custom Office</h2>
+            
+            </div>
+          </div>
+         
+         
+          
+        </div>
+
+      </div>
+    </div></br></br>
+    <div class="row g-5 justify-content-center">
+             
+    <div class="col-md-6">
+<!-- <div class="col-md-4">
+               <h4>MORTGAGE ADVISOR<span > MORTGAGE ADVISOR</span></h4>
+              </div>
+
+             <div class="col-md-2">
+               <h4>MORTGAGE ADVISOR</h4>
+              </div>
+              <div class="col-md-2">
+               <h4>MORTGAGE ADVISOR</h4>
+              </div> -->
+
+    </div>
+
+    <div class="col-md-6" style="background:#284875;color: white">
+      <h5 style="text-align: center; padding-top: 20px;">Who frispes</h5>
+      <h3 style="text-align: center;">We revolutionize your</br> workspace</h3>
+      <p style="text-align: center;">With a decade of insight and expertise,we're </br>decided to reimagine co-working space,designed </br>to help a new startup grow up and realize their</br> ideas so they can give a positive impacts on many peaople</p>
+     
+    </div>
+  
+   </div>       
+   
+             
+             <div class="row g-5 justify-content-center">
+              <h5>Our facilities</h5>
+          <h2 style="color: #284875; text-align: center;" >All facilities are designed to </br>meet all your needs</h2></br>
+          </br>
+    <div class="col-md-6" style="padding-left: 2rem">
+     <ul class="list-unstyled" style="text-align: center;">
+       <li class="mb-4" style="color: #284875">Spacious parking area</li>
+       <li  class="mb-4" style="color: #284875">Comfortable spaces</li>
+       <li  class="shadow" style="color: white; background-color: #f15105; padding: 10px;padding-right: 50px; width: 20% ;position: relative; left: 40%">Cozy cafe</li>
+       <li  class="mb-4" style="color: #284875">Child playground</li>
+       <li  class="mb-4" style="color: #284875">Outdoor spaces</li>
+      
+     </ul>
+    </div>
+
+    <div class="col-md-6">
+      
+      <img src="image_4.png" style="height: 70%;">
+     
+    </div>
+  
+   </div>       
+    
+  <div class="site-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          
+        </div>
+        <div class="row"><!-- <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="row mb-5"> -->
+          <h2 style="color: #284875;"></h2></br>
+          </br></br>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+            <a href="#"><img src="image_5.png" alt="Image"></a>    
+           
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+            
+            <div>
+           <a href="#"><img src="image_6.png" alt="Image" class="shadow img-fluid"></a>
+            </div>
+          </div>
+
+           <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="p-4 bg-white">
+           
+              <h2 class="h5 mb-3" style="color: #284875;">Immersive beautiful co-working spce gallery </h2>
+            
+            </div>
+            <div class="">
+           <a href="#"><img src="image_7.png" alt="Image" class="img-fluid"></a>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+            
+            <a href="#"><img src="image_8.png" alt="Image" class="img-fluid"></a>
+            
+          </div>
+         
+         
+          
+        </div>
+
+      </div>
+    </div>
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7 text-center">
+            <div class="site-section-title">
+              <h2 style="color: #284875;">Who uses Frispes?</h2>
+            </div>
+            <p> Big brands,small bussiness new startuo and individuals</p>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          
+        </div>
+        <div class="row">
+          <h5>Reviews</h5>
+          <h2 style="color: #284875;">What our customers </br>are saying</h2></br>
+          </br></br></br></br>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
+            
+            <div class="p-4" style="background: #041b3c; color: white;">
+             
+              
+              <p  class="text-center" >Our team has been working at frispes for almost 2 months because our office still closed.During working at frispes we fell a new experience,we can feel working with a beautiful,modern,and comfortable space.And cozy cafe with high-speed internet in there.Thank you for frispes and team.</p>
+              <img src="sous_image_1.png"><h4 style="color: #284875;">Sunder pichai<h4>
+                <h4 style="color: gray">CEO at Google</h4>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
+            
+           <div class="p-4" style="background: #041b3c; color: white;height: 100%">
+             
+              
+              <p  class="text-center" >Our team has been working at frispes for almost 2 months because our office still closed.During working at frispes we fell a new experience,we can feel working with a </p>
+            </br></br></br>
+              <img src="sous_image_2.png"><h4 style="color: white;">Raymond Thaui<h4>
+              <p class="text-white">Professional Freelancer</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
+            
+            <div class="p-4" style="background: #041b3c; color: white; height: 100%">
+             
+              
+              <p  class="text-center" >Our team has been working at </p></br></br></br></br></br></br>
+              <img src="sous_image_3.png"><h4 style="color: #fff;">Yull berr<h4>
+                <p style="color: white">IOS DEverrr</p>
+            </div>
+          </div>
+         
+        
+         
+        </div>
+
+      </div>
+    </div>
+    <div class="">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center">
+            <div class="site-section-title">
+              <h2>Find the answers to anything</br>your need in our help Center</h2>
+            </div>
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+         
+            <div class="p-4">
+              <h3 class="shadow h5 text-black mb-3 unit">
+             How do I Know if a space is available?</h3>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100" >
+            
+            <div class="p-4 bg-white">
+              <h3 class="h5 text-white mb-3" style="padding: 30px;
+    background: #f15105;
+    text-align: center;
+    padding-top: 50px;">
+             How do i book a </br>space ?</h3>
+
+            </div>
+<p style="color: #f15105; text-align: center;">More questions ></p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+            
+            <div class="p-4 bg-white">
+              <h3 class="shadow h5 text-black mb-3 unit">
+             How do reviews </br>work?</h3>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          
+        </div>
+        <div class="row">
+          <h2 style="color: #284875;">News,events and insigths for you</h2></br>
+          </br></br>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <a href="#"><img src="image_9.png" alt="Image" class="img-fluid rounded mb-4"></a>    
+           
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
+            
+            <div class="p-4 bg-white">
+             
+              <h1 class="h2 text-black mb-3">Google I/ O 2020</br>news update</h1>
+              <p>Out of concern for the health and safety of </br>our developers,employees and local</br> communities- and in line with recent...</p>
+              <img src="sous_image_1.png"><h4 style="color: #284875;">Sunder pichai<h4>
+                <h4 style="color: gray">CEO at Google</h4>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
+            <a href="#"><img src="image_10.png" alt="Image" class="img-fluid"></a>
+            <div class="p-4 bg-white">
+           
+              <h2 class="h5 text-black mb-3">Minimal worskpace for</br> inspirations</h2>
+            
+              <span class="d-block text-secondary small text-uppercase">Antony,Masional</span>
+            </div>
+          </div>
+         <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
+            <a href="#"><img src="image_11.png" alt="Image" class="img-fluid"></a>
+            <div class="p-4 bg-white">
+             
+              <h3 class="h5 text-black mb-3">Does productivity increase when working remotely?</h3>
+             
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
+            <a href="#"><img src="image_12.png" alt="Image" class="img-fluid"></a>
+            <div class="p-4 bg-white">
+             
+              <h3 class="h5 text-black mb-3">Morning routine to boost your mood</h3>
+              
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
+            <a href="#"><img src="image_13.png" alt="Image" class="img-fluid"></a>
+            <div class="p-4 bg-white">
+              
+              <h2 class="h5 text-black mb-3">5+ tips to find comfortable co-working space </h2>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    
+    
+<section>
+      <div class="d-flex align-items-center" style="background-color:#284875;">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-8">
+              
+             <div class="row g-5">
+    <div class="col-md-6" style="padding-top: 5rem;">
+     <h4 style="color: white;" class="text-black mb-3">Became a member</h4>
+   <h3 style="color: white; letter-spacing: 2px;">
+     Ready to try different </br>work experience now?
+   </h3>
+   <p style="color: white" class="mb-3">Get the text working experience that you never </br>feel before</p>
+     <button type="button"  style="background-color: #f15105; padding-left:60px; padding-right: 60px" class="btn btn-primary">SIGN UP NOW</button>
+    </div>
+
+    <div class="col-md-6" style="padding-left: 5rem;">
+      
+      <img src="smile_photo.png">
+     
+    </div>
+  </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer" style="background-color: #041b3c; padding: 30px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="mb-5">
+              <h3 class="footer-heading text-white mb-4">Frispes</h3>
+              <p class="text-white">We offer comfortable spaces,cozy cafe,high-speed internet,spacious parking area and many more for </br>your best workspaces and meetings</p>
+              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </div>
+
+            
+            
+          </div>
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="row mb-5">
+              <!-- <div class="col-md">
+                
+              </div> -->
+              <div class="col-md-6 col-lg-6">
+                <h3 class="mb-4 text-white">Spaces</h3>
+                <ul class="list-unstyled"  class="text-white">
+                  <li><a href="#"class="text-white" style="text-decoration: none;">Co-working spaces</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;">Meeting rooms</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;">Event spaces</a></li>
+                  <li><a href="#"class="text-white" style="text-decoration: none;">Child playground</a></li>
+                </ul>
+              </div>
+              
+              <div class="col-md-6 col-lg-6">
+                <h3 class="mb-4 text-white" >Company</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-white" style="text-decoration: none;">About Us</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;" class="text-white" style="text-decoration: none;">Pricing</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;">Careers</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;">Press</a></li>
+                </ul>
+              </div>
+             
+            </div>
+
+
+          </div>
+
+
+          <div class="col-lg-2 mb-5 mb-lg-0">
+            <div class="col-md-6 col-lg-6">
+                <h3 class="mb-4 text-white">Support</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-white" style="text-decoration: none;">FAQs</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;">Privacy Policy</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;">Help</a></li>
+                
+                </ul>
+              </div>
+              </div>
+              <div class="col-lg-2 mb-5 mb-lg-0">
+          <div class="col-md-6 col-lg-6">
+                <h3 class="mb-4 text-white"> Contact Us</h3>
+                <ul class="list-unstyled">
+                <li><a href="#" class="text-white" style="text-decoration: none;">About Us</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;">Pricing</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;">Careers</a></li>
+                  <li><a href="#" class="text-white" style="text-decoration: none;">Press</a></li>
+                </ul>
+              </div>
+
+             </div>
+
+          
+
+          
+        </div>
+       
+      </div>
+    </footer>
+
+  </div>
+ 
+ 
+    
+  </body>
+</html>
